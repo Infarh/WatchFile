@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "WatchFile": {
+      "commandName": "Project",
+      "commandLineArgs": "-p c:\\123\\test.txt"
+    }
+  }
+}
