@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 if (args.Length == 0 || args.Any(arg => arg == "-?" || arg == "/?"))
 {
     Console.WriteLine("Утилита отслеживания файла");
-    Console.Write("\twatchfile file.txt");
+    Console.WriteLine("\twatchfile file.txt");
     Console.WriteLine("Отслеживает и выводит на консоль все изменения в файле");
     Console.WriteLine();
     Console.WriteLine(@"Параметры:
